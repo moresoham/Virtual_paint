@@ -8,4 +8,4 @@ It demonstrates identification of color and then using that color to draw it on 
 3. Install matplotlib
 
 ## How it works:
-Basically it works by identifying the color using HSV methods. Once we have 2 or 3 colors, their HSV values are send into a list. So when the app detects the HSV values of those colors they appear and with opencv methods like draw_circle (fill method), it helps to draw lines and play around in real time.
+Basically it works by identifying the color using HSV methods. Once we have 2 or 3 colors, their HSV values are send into a list. So when the app detects the HSV values of those colors they appear and with opencv methods like cv2.circle, contours and so on. It helps to draw lines and play around in real time.
